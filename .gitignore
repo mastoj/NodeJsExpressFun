@@ -1,0 +1,23 @@
+## Generic stuff
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+## Node stuff
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+node_modules
+npm-debug.log
