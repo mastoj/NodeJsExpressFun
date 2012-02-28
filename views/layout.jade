@@ -1,6 +1,18 @@
-!!!
+!!! 5
 html
   head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    script(src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js')
+    script(src='../javascripts/bootstrap.min.js')
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+  .navbar.navbar-fixed-top
+    .navbar-inner
+      .container
+        a.brand This is where the magic happens
+        ul.nav
+          li.active
+            a(href='#') home
+          li
+            a(href='#') about
   body!= body

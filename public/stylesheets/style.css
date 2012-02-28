@@ -1,8 +1,2 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  color: #00b7ff;
-}
-a {
-  color: #ffb7ff;
-}
+@import "../css/bootstrap.css";
+@import "../css/bootstrap-responsive.css";
