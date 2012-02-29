@@ -9,10 +9,19 @@ html
   .navbar.navbar-fixed-top
     .navbar-inner
       .container
+
+        a.btn.btn-navbar(data-toggle='collapse', data-target='.nav-collapse')
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+
         a.brand This is where the magic happens
-        ul.nav
-          li.active
-            a(href='#') home
-          li
-            a(href='#') about
+        .nav-collapse
+          ul.nav
+            li.active
+              a(href='#') home
+            li
+              a(href='#') about
+
+
   body!= body
