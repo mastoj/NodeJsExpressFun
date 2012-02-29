@@ -1,2 +1,7 @@
 @import "../css/bootstrap.css";
 @import "../css/bootstrap-responsive.css";
+@media (min-width: 980px) {
+  body {
+    padding-top: 60px;
+  }
+}
