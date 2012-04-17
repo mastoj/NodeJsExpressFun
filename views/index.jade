@@ -1,11 +1,9 @@
 mixin postslisting(posts)
   - each post in posts
-    section
-      .post-intro
-        h2.post-title
-          a(href="#")= post.title
-        .excerpt= post.excerpt
+    .post-intro
+      h2.post-title
+        a(href="#")= post.title
+      .excerpt= post.excerpt
 
-article
-  .container
+article.span8
     mixin postslisting(posts)

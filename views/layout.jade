@@ -6,7 +6,12 @@ html
     script(src='../javascripts/bootstrap.min.js')
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
-  .navbar.navbar-fixed-top
+
+  header
+    hgroup
+      h1 This is the end of the universe
+
+  nav(role="navigation").navbar
     .navbar-inner
       .container
 
@@ -15,7 +20,6 @@ html
           span.icon-bar
           span.icon-bar
 
-        a.brand This is where the magic happens
         .nav-collapse
           ul.nav
             li.active
@@ -23,5 +27,13 @@ html
             li
               a(href='#') about
 
-
-  body!= body
+  .main
+    .content.row
+      body!= body
+      aside.span4
+        section
+          ul.recent
+            li
+              a(href="#") yesterday
+            li
+              a(href="#") tomorrow
